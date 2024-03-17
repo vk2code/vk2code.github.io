@@ -1,0 +1,298 @@
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* text-align: center; */
+    /* color: aliceblue;
+    border-style: dashed; */
+}
+
+ul img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding-right: 350px;
+}
+
+ul li {
+    display: inline;
+    vertical-align: middle;
+}
+
+li {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+a {
+    padding: 25px;
+    padding-top: 35px;
+    font-size: 75px;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    color: rgb(155, 202, 243);
+    border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(155, 202, 243);
+    border-radius: 45px;
+}
+
+a:hover {
+    color: blueviolet;
+    border-color: blueviolet;
+    border-style: dotted;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+.cover-1 .title {
+    position: absolute;
+    text-align: center;
+    font-size: 250px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    top: 650px;
+    /* padding-left: 200px; */
+    /* padding-top: 100px;; */
+}
+
+.cover-1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cover-2 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cover-3 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.cover-3 .title {
+    position: absolute;
+    font-size: 250px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 550px;
+    padding-left: 800px;
+}
+
+.cover-2 .title {
+    position: absolute;
+    font-size: 250px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 550px;
+    padding-left: 800px;
+}
+
+.content {
+    background-color: black;
+    padding-bottom: 25px;
+}
+
+.subtitle {
+    font-size: 150px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    border-width: 5px;
+    border-color: rgb(44, 44, 97);
+    border-style: solid;
+    padding: 50px;
+    background-color: black;
+    color: rgb(123, 123, 225);
+}
+
+.index-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.me{
+    width: 100%;
+    height: 750px;
+}
+
+.index-grid .hobby{
+    width: 100%;
+    height: auto;
+}
+
+.index-grid .travel{
+    width: 100%;
+    height: auto;
+}
+
+.me{
+    display: flex;
+}
+
+.hobby{
+    display: flex;
+}
+
+.travel{
+    display: flex;
+}
+
+.text {
+    color: white;
+    font-family: "Asap Condensed", sans-serif;
+}
+
+.text h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    padding-left: 50px;
+    padding-top:25px;
+    padding-bottom:50px;
+}
+
+.hobby .text h2, .travel .text h2{
+    font-size: 75px;
+}
+
+.text p{
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    font-size: 60px;
+    width: fit-content;
+}
+
+.me img{
+    padding-top: 25px;
+    padding-left: 25px;
+    height: 700px;
+}
+
+.hobby img{
+    padding-top: 25px;
+    padding-left: 25px;
+    height: 700px;
+}
+
+.travel img{
+    padding-top: 25px;
+    padding-left: 25px;
+    height: 700px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+
+footer img{
+    padding-bottom: 15px;
+}
+
+.digital-grid{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: auto auto;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.digital-grid img{
+    height: 1000px;
+}
+
+.digital-grid .edit-vid{
+    width: 750px;
+    object-fit: contain;
+}
+
+.video {
+    grid-column: 2;
+}
+
+.digital-grid h1 {
+    color: white;
+    font-family: "Asap Condensed", sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.digital-grid p{
+    font-size: 40px;
+}
+
+h3{
+    color: rgb(123, 123, 225);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 75px;
+    border-width: 5px;
+    border-color: rgb(44, 44, 97);
+    border-style: solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+}
+
+.physical-grid{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: auto;
+    grid-gap: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 50x;
+}
+
+.physical-grid div{
+    height: 1000px;
+    width: 700px
+}
+
+.physical-grid img{
+    height: 700px;
+    object-fit: contain;
+
+}
+
+.physical-grid h1 {
+    color: white;
+    font-family: "Asap Condensed", sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.physical-grid p{
+    font-size: 40px;
+}
+
+
+
+/* running out of time so this is what i woulve done if it was responsive for phone at least
+@media only screen and (max-width: 767px){
+    in here i would add the adjustments
+} 
+
+right now it is only responsive for pc :(*/
+
